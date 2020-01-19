@@ -10,6 +10,7 @@ import javax.persistence.Query;
 
 import sgaMecanica.model.entities.InvMarca;
 import sgaMecanica.model.entities.VenCredito;
+import sgaMecanica.model.entities.VenDetalle;
 
 /**
  * Session Bean implementation class ManagerVenCredito
@@ -40,6 +41,11 @@ public class ManagerVenCredito {
     
     public void insertarvenCredito(VenCredito venCredito) throws Exception  {
 		em.persist(venCredito);
+	}
+
+	public List<VenDetalle> findAllVenDetalle() {
+		// TODO Auto-generated method stub
+		return null;
 	}
     
 }

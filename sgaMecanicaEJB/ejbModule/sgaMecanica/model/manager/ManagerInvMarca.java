@@ -17,6 +17,7 @@ import sgaMecanica.model.entities.InvMarca;
 @Stateless
 @LocalBean
 public class ManagerInvMarca {
+	
 @PersistenceContext
 private EntityManager em;
     /**
